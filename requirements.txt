@@ -1,0 +1,7 @@
+Flask
+Flask==2.0.1
+
+#add version compatible with my flask 
+
+werkzeug==2.0.3
+
