@@ -1,6 +1,6 @@
 Flask
 Flask==2.0.1
-
+pytest
 #add version compatible with my flask 
 
 werkzeug==2.0.3

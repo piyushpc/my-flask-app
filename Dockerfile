@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.9-slim
+FROM python:3.8-slim
 
 # Set the working directory in the container
 WORKDIR /app
@@ -18,4 +18,5 @@ ENV FLASK_APP=app.py
 ENV FLASK_RUN_HOST=0.0.0.0
 
 #Run app.py when the container launches
-CMD ["flask", "run"]
+#CMD ["flask", "run"]
+CMD [ "pytest" ]
